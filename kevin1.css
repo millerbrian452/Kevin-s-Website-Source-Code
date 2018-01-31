@@ -1,7 +1,7 @@
 	* {
 	  box-sizing: border-box;
 	}
-
+/*Body Styles*/
 	body {
 	  background-image: url("IMG_0174.jpg");
 	  background-attachment: fixed;
@@ -12,7 +12,7 @@
 	  padding: 0;
 	  z-index: -1;
 	}
-
+/*Column Styles*/
 	.row::after {
 	  content: "";
 	  clear: both;
@@ -36,19 +36,13 @@
 	  padding: 15px;
 	  border: none;
 	}
-
+/*HTML Styles*/
 	html {
 	  font-family: "Lucida Sans", sans-serif;
 	}
-
+/*H1 styles*/
 	h1 {
 	  text-align: center;
-	}
-
-	p.main {
-	  background-color: white;
-	  padding: 15px;
-	  border-radius: 25px;
 	}
 
 	.header {
@@ -59,6 +53,13 @@
 	  border-radius: 25px;
 	}
 
+/*Primary Paragraph Styles*/
+	p.main {
+	  background-color: white;
+	  padding: 15px;
+	  border-radius: 25px;
+	}
+/*Nav Menu Styles*/
 	.menu ul {
 	  list-style-type: none;
 	  margin: 0px;
@@ -77,7 +78,7 @@
 	.menu li:hover {
 	  background-color: #00BFFF;
 	}
-
+/*Aside Styles*/
 	.aside {
 	  background-color: #A6E7FF;
 	  padding: 15px;
@@ -87,7 +88,7 @@
 	  font-size: 14px;
 	  box-shadow: box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	}
-
+/*Footer Styles*/
 	.footer {
 	  background-color: light grey;
 	  color: white;
@@ -98,14 +99,15 @@
 	  margin-top: 200px;
 	}
 
-	/* for mobile phones */
+	/*Resolution Settings for Mobile Phones */
 
 	[class*="col-"] {
 	  width: 100%;
 	}
 
+ /*Resolution settings for Tablets */
 	@media only screen and (min-width: 600px) {
-	  /*for tablets */
+
 	  .col-m-1 {
 	    width: 8.33%;
 	  }
@@ -143,9 +145,9 @@
 	    width: 100%;
 	  }
 	}
-
+  /* Resolution Settings for Desktops */
 	@media only screen and (min-width: 768px) {
-	  /* for desktop */
+
 	  .col-1 {
 	    width: 8.33%;
 	  }
@@ -183,7 +185,7 @@
 	    width: 100%;
 	  }
 	}
-
+/*Resizing Photo Gallery Styles*/
 	.active {
 	  background-color: #FF6347;
 	}
@@ -232,7 +234,7 @@
 	  clear: both;
 	}
 
-	/*Settings for form labels*/
+	/*Styles for Form Labels*/
 
 	label {
 	  background-color: white;
@@ -246,7 +248,7 @@
 	  border-left: 15px solid #00BFFF;
 	}
 
-	/*settings for dropdown buttons*/
+	/*Styles for Dropdown Buttons*/
 
 	li a, .dropbtn {
 	  display: inline-block;
@@ -317,7 +319,7 @@
 	  background-color: #00BFFF;
 	}
 
-	/*settings for contact page header and <p> elements*/
+	/* Contact Page Header and Other <p> Elements styles*/
 
 	p.con {
 	  background-color: white;
